@@ -76,9 +76,7 @@ int main(){
                 cout << "Opción: ";
                 cin >> menu2;
                 cin.ignore();
-                
-                //cout << "OPTION OF THE MENU: " << menu2 << endl;
-                
+                                
                 system("clear");
                 
                 if(menu2 == 1){
