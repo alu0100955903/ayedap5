@@ -62,16 +62,4 @@ class Quicksort{
     		quicksort(v, pivot + 1, d);
     	}
     }
-    
-    int quicksortstat(vector<T>& v, int i, int d){
-    	if (i < d) {
-    
-    		const int pivot = divide(v, i, d);
-
-    		quicksort(v, i, pivot - 1);
-    		quicksort(v, pivot + 1, d);
-    	}
-    	i_++;
-    	return i_;
-    }
 };
