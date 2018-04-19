@@ -55,21 +55,4 @@ class Heapsort{
             heapify(v, i, 0);
         }
     }
-    
-    int heapSortstat(vector<T>&  v, int n){
-        int iter = 0;
-        
-        for (int i = n / 2 - 1; i >= 0; i--)
-            heapify(v, n, i);
-     
-        for (int i=n-1; i>=0; i--)
-        {
-            iter++;
-            swap(v[0], v[i]);
-     
-            heapify(v, i, 0);
-        }
-        
-        return iter;
-    }
 };
